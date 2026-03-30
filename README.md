@@ -1,4 +1,7 @@
 # threat-intelligence-ip-checker-
+## 🚨 Project Objective
+
+Simulate a SOC analyst workflow by detecting brute-force login attempts and enriching suspicious IP addresses using threat intelligence (VirusTotal API).
 SOC project: Detect brute force attacks and enrich IPs using VirusTotal threat intelligence 
 🔍 Threat Intelligence IP Checker (SOC Project)
 
@@ -52,13 +55,13 @@ python3 threat_intel.py
 
 📸 Screenshots
 
-🔎 Detection Output
+## 📸 Detection Output
 
-"Detection Output" (screenshots/1-detection-output.png)
+![Detection Output](screenshots/1-detection-output.png)
 
-💻 Code Implementation
+## 💻 Code Implementation
 
-"Code" (screenshots/2-threat-intel-code.png)
+![Code](screenshots/2-threat-intel-code.png)
 
 ---
 
