@@ -74,6 +74,24 @@ python3 threat_intel.py
 
 ---
 
+## 📊 Threat Intelligence Insight: CVE-2026-3854
+
+**Summary:**  
+A critical Remote Code Execution (RCE) vulnerability in GitHub’s internal Git infrastructure allowed attackers to execute arbitrary commands via crafted `git push` operations.
+
+**Key Technical Points:**
+- Injection via `git push -o` options  
+- Exploitation of internal `X-Stat` header  
+- Sandbox bypass through environment manipulation  
+
+**SOC Detection Opportunities:**
+- Monitor unusual git push options  
+- Detect abnormal hook execution  
+- Alert on unexpected backend behavior  
+
+**Lesson Learned:**  
+Never trust user-controlled input—even in internal systems.
+
 ⚠️ Note
 
 Replace the API key with your own VirusTotal API key before running the script:
